@@ -1,0 +1,13 @@
+import random
+
+my_list = []
+
+for _ in range(10):
+    amount = random.randint(0,3)
+    number = round(random.uniform(0, 10), amount)
+    if number == int(number):
+        my_list.append(int(number))
+    else:
+        my_list.append(number)
+        
+print(my_list)
