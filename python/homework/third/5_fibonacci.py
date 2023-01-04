@@ -16,8 +16,6 @@ F = []
 for x in range(-k,k+1):
     if x < 0:
         F.append(-1*(fibonacci(-1*x)))
-    elif x == 0:
-        F.append(0)
     else:
         F.append(fibonacci(x))
 
